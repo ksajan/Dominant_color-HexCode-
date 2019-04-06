@@ -33,5 +33,6 @@ pip install colormap
   Result:
   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/result.png " Result")
   
-  
-  
+
+
+PS: Readme is in constant update if you don't understand anything in this code please raise issue/pull request thank you.
