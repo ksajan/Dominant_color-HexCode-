@@ -18,15 +18,19 @@ pip install colormap
   python Finding_dominant_clors.py --image 0.jpg --cluster 3
   ```
   
+  input image:
   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/1.jpg "input image")
   
+  Histogram with cluster value = 3:
   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/Figure_2.png "Histogram with cluster value = 3")
   
+  Histogram with cluster value = 4:
   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/3.png " Histogram with cluster value = 4")
   
   
   Your result will look like something like this image attached below
   
+  Result:
   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/result.png " Result")
   
   
