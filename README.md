@@ -35,4 +35,18 @@ pip install colormap
   
 
 
-PS: Readme is in constant update if you don't understand anything in this code please raise issue/pull request thank you.
+
+  ### Result of eliminating neutral colors
+   this little code snippet is an early stage of removing neutral color from dominat color histogram by changing number of clusters from the initial value by number of neutral color it contains.
+   
+   code snippet part of it
+   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/deleting%20particular%20color%20snippet.png " code snippet")
+   
+   ## Result:
+   ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/Figure_3.png " result png file")
+
+
+
+## Update:
+I have updated the utills and finding_dominant_clors.py file with update KMeans algorith and removing particular pixel value from histogram while clustring all pixel value using initial given cluster value. this gives the most dominant color is being used as you can see from above result. this is only applicable only if you have the particular pixel RGB value with you( i have used the white and black pixel harcoded which is used in the original image ![alt text](https://github.com/ksajan/Dominant_color-HexCode-/blob/master/image/images.png " input image"). So as you can see it has removed the black and white RGB value from the histogram . this won't be in your case you have to find the the pixel value in you image for example [255,255,255] to [225, 225, 225] can be seen white and [0,0,0] and [2,2,2] both are black. So, please check the values before using the above script directly.
+It will be next update so that we can remove the pixel values in a range so it can work for all image without worring about the particular pixel value and hardcoding it. Thanks Stay tuned for more amazing updates.
